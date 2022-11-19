@@ -1,0 +1,18 @@
+//wap to  find the sqaure of a number is even or odd
+//imperative way
+
+const a = 5
+let sqaured = a*a
+let flag;
+if(sqaured%2==0){
+flag = true
+}
+else{
+    flag = false
+}
+console.log(flag)
+
+//declarative way of writing the same code
+
+let ans =(c)=>(c*c)%2===0?true:false
+console.log(ans(11))
